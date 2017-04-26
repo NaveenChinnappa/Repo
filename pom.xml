@@ -15,20 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
- <distributionManagement>
-      <repository>
-      <id>NaveenChinnappa</id>
-      <name>Internal Releases</name>
-      <url>http://192.168.3.77:8081/repository/maven-releases/</url>
-      </repository>
-    
-    <snapshotRepository>
-    <id>NaveenChinnappa</id>
-    <name>Internal Releases</name>
-    <url>http://192.168.3.77:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
+  <distributionManagement>
+  <repository>
+  <id>NaveenChinnappa</id>
+  <name>Internal Releases</name>
+  <url>http://192.168.3.77:8081/repository/maven-releases/</url>
+  </repository>
+
+   <snapshotRepository>
+<id>NaveenChinnappa</id>
+<name>Internal Releases</name>
+<url>http://192.168.3.77:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
+
    
-  </distributionManagement>
-  
+ 
 </project>
